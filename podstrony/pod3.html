@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="Pl-pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, inicial-scale=1.0" />
+    <title>Sklep</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <header>
+      <div class="fotka">
+        <img
+          class="zenshina"
+          src="../css/313070238_profilebanner2.png.31cad17739cddb3041622b0bc5c2aa8f.png"
+          alt=""
+        />
+      </div>
+      <div class="nago"><h1>Sklep dokimakur</h1></div>
+    </header>
+    <nav>
+      <ul class="knopy">
+        <a href="../index.html"><li>Strona Główna</li></a>
+
+        <a href="pod2.html"> <li>Kupić</li></a>
+
+        <a href="pod3.html"> <li>Pomóc</li></a>
+      </ul>
+    </nav>
+    <h2>Support</h2>
+    <div class="blok">
+      <div class="dane">
+        <form action="skrypt.php" method="post" enctype="multipart/form-data">
+          Imie:
+          <input
+            type="Imię"
+            name="imie"
+            id="imie"
+            maxlength="10"
+            placeholder="Wpish imie"
+          />
+          <br />
+          Nazwisko:
+          <input
+            type="Nazwisko"
+            name="Nazwisko"
+            id="Nazwisko"
+            maxlength="10"
+            placeholder="Wpisz Nazwisko"
+          />
+          <br />
+          Tel:
+          <input
+            type="number"
+            name="tel"
+            id="tel"
+            maxlength="11"
+            placeholder="Wpisz Numer Tel"
+          /><br />
+          Pin:
+          <input
+            type="number"
+            name="pin"
+            id="pin"
+            max="4"
+            min="0"
+            placeholder="Wpisz pin"
+          /><br />
+          Płeć:<br />
+          M <input type="radio" name="plec" id="plic" /><br />
+          K <input type="radio" name="plec" id="ploc" /><br />
+          Wiek:
+          <select>
+            <option value="1">0-17</option>
+            <option value="2">18-99+</option>
+          </select>
+        </form>
+      </div>
+      <div class="danetwo">
+        <p>
+          Jeżeli u ciebie pojawiły sie problemy przy zakupie to zawsze możesz
+          napisać do nas i my ci pomożemy
+        </p>
+      </div>
+    </div>
+    <div class="duda"></div>
+  </body>
+</html>

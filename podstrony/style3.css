@@ -1,0 +1,143 @@
+html {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  background-color: #ffa76d;
+  width: 1300px;
+  padding-bottom: 30px;
+}
+
+header:hover {
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  background-color: #fba164;
+  width: 1300px;
+  padding-bottom: 30px;
+  filter: brightness(1.1);
+  transition: 0.6s;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.fotka {
+  margin-top: 3%;
+  width: 50%;
+}
+
+.zenshina {
+  width: 500px;
+}
+
+.nago {
+  color: #f1b6f1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.nago:hover {
+  color: rgb(118, 90, 239);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  margin-left: 5%;
+  margin-top: 5%;
+  filter: brightness(1.1);
+  transition: 1.6s;
+}
+
+nav {
+  opacity: 95%;
+  margin: auto;
+  margin-top: 4px;
+  background-color: #ffa76d;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 1300px;
+  margin-bottom: 5px;
+}
+
+nav li {
+  display: inline-block;
+  width: 27%;
+  background-color: #f1b6f1;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+nav li:hover {
+  display: inline-block;
+  width: 27%;
+  background-color: #f28cf2;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 3%;
+  filter: brightness(1.1);
+  transition: 0.6s;
+}
+
+h2 {
+  background-color: #ffa76d;
+  margin: auto;
+  text-align: center;
+  width: 1300px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dane {
+  width: 55%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.danetwo {
+  width: 25%;
+  margin-right: 5%;
+}
+
+.dane input {
+  margin-bottom: 10px;
+}
+
+input {
+  display: inline;
+}
+
+.blok {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffa76d;
+  display: flex;
+  width: 1300px;
+  margin: auto;
+}
+
+.duda {
+  padding-bottom: 500px;
+}
